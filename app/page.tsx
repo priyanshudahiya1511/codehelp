@@ -7,7 +7,7 @@ import Details from "@/components/course/Deatil";
 import Content from "@/components/course/Content";
 import Buy from "@/components/course/Buy";
 
-const page = () => {
+const Page = () => {
   const [isCollapsible, setIsCollapsible] = useState(false);
   return (
     <div className="w-full h-screen bg-[#0F0F0F] flex relative">
@@ -74,4 +74,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

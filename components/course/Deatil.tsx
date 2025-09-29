@@ -30,7 +30,7 @@ const topics = [
 export default function Details() {
   return (
     <section className="p-6 rounded-2xl bg-[#1E1E1E66]">
-      <h1 className="text-xl text-[#FCFCFC] mb-5">What you'll learn</h1>
+      <h1 className="text-xl text-[#FCFCFC] mb-5">What you will learn</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {topics.map((topic, index) => (
           <div key={index} className="flex items-start gap-3">
