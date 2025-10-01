@@ -29,7 +29,7 @@ const AccordionTrigger = React.forwardRef<
     <AccordionPrimitive.Trigger
       ref={ref}
       className={cn(
-        "group flex w-full items-center justify-between py-4 px-4 font-medium transition-all data-[state=open]:bg-[#1E1E1E66]/40 data-[state=open]:text-white data-[state=open]:mt-2 data-[state=open]:rounded-t-lg",
+        "group flex w-full items-center justify-between py-4 px-4 font-medium transition-all data-[state=open]:bg-[#1E1E1E66]/40 data-[state=open]:border-t data-[state=open]:border-l data-[state=open]:border-r  data-[state=open]:border-[#27272A] data-[state=open]:text-white data-[state=open]:mt-2 data-[state=open]:rounded-t-lg",
         className
       )}
       {...props}
@@ -47,7 +47,7 @@ const AccordionContent = React.forwardRef<
   <AccordionPrimitive.Content
     ref={ref}
     className={cn(
-      "overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down data-[state=open]:bg-[#1E1E1E66]/40 data-[state=open]:text-white data-[state=open]:rounded-b-lg px-4 pb-2",
+      "overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down data-[state=open]:bg-[#1E1E1E66]/40 data-[state=open]:border-b data-[state=open]:border-r data-[state=open]:border-l data-[state=open]:border-[#27272A] data-[state=open]:text-white data-[state=open]:rounded-b-lg px-4 pb-2",
       className
     )}
     {...props}
